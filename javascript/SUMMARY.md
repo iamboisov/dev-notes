@@ -1,3 +1,5 @@
 # Table of contents
 
-* [Page](README.md)
+## Добро пожаловать! <a href="#welcome" id="welcome"></a>
+
+* [MaxJS](README.md)
