@@ -7,3 +7,4 @@
 ## Основы JavaScript <a href="#basics" id="basics"></a>
 
 * [Строгий режим](basics/strict-mode.md)
+* [Переменны](basics/peremenny.md)
