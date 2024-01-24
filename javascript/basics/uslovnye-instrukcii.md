@@ -10,6 +10,7 @@ description: Конструкции "if" и условный оператор "?
 
 ```javascript
 let num = 10;
+
 if (num == 10) {
 console.log("Num is 10")
 }
@@ -19,6 +20,7 @@ console.log("Num is 10")
 
 ```javascript
 let condition = (num == 10);
+
 if (condition) {
 ...
 }
@@ -29,6 +31,7 @@ if (condition) {
 Инструкция `if` может содержать необязательный блок `else`, которое выполнится при противоположном результате вычисления условия.
 
 <pre class="language-javascript"><code class="lang-javascript">let num = 10;
+
 if (num == 5) {
 ...
 } else if (num == 7) {
@@ -71,6 +74,7 @@ let accessAllowed = age > 18;
 
 ```javascript
 let num = 10;
+
 let res = num >= 20 ? "Число больше или равно 20" :
     (num >= 15) ? "Число больше или равно 15, но меньше 20" :
     (num >= 10) ? "Число больше или равно 10, но меньше 15" : "Число меньше 10";
@@ -103,6 +107,7 @@ console.log(res)
 
 ```javascript
 let num = 11;
+
 (num == 10) ? console.log("Равно 10") : console.log("Не равно 10")
 ```
 
