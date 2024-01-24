@@ -12,3 +12,4 @@
 * [Функции интерфейса браузера](basics/funkcii-interfeisa-brauzera.md)
 * [Преобразование типов](basics/preobrazovanie-tipov.md)
 * [Операторы](basics/operatory.md)
+* [Условные инструкции](basics/uslovnye-instrukcii.md)
