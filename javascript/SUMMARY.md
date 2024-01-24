@@ -9,3 +9,4 @@
 * [Строгий режим](basics/strict-mode.md)
 * [Переменные](basics/peremennye.md)
 * [Типы данных](basics/tipy-dannykh.md)
+* [Функции интерфейса браузера](basics/funkcii-interfeisa-brauzera.md)
