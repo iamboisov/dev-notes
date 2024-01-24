@@ -11,7 +11,7 @@ description: Конструкции "if" и условный оператор "?
 ```javascript
 let num = 10;
 if (num == 10) {
-    console.log("Num is 10")
+console.log("Num is 10")
 }
 ```
 
