@@ -13,3 +13,4 @@
 * [Преобразование типов](basics/preobrazovanie-tipov.md)
 * [Операторы](basics/operatory.md)
 * [Условные инструкции](basics/uslovnye-instrukcii.md)
+* [Логические операторы](basics/logicheskie-operatory.md)
