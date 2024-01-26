@@ -14,3 +14,4 @@
 * [Операторы](basics/operatory.md)
 * [Условные инструкции](basics/uslovnye-instrukcii.md)
 * [Логические операторы](basics/logicheskie-operatory.md)
+* [Операторы нулевого слияния и присваивания "??", "??="](basics/operatory-nulevogo-sliyaniya-i-prisvaivaniya.md)
