@@ -17,3 +17,4 @@
 * [Операторы нулевого слияния и присваивания "??", "??="](basics/operatory-nulevogo-sliyaniya-i-prisvaivaniya.md)
 * [Циклы while и for](basics/cikly-while-i-for.md)
 * [Конструкция "switch"](basics/konstrukciya-switch.md)
+* [Функции](basics/funkcii.md)
