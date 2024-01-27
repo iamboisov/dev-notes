@@ -15,3 +15,4 @@
 * [Условные инструкции](basics/uslovnye-instrukcii.md)
 * [Логические операторы](basics/logicheskie-operatory.md)
 * [Операторы нулевого слияния и присваивания "??", "??="](basics/operatory-nulevogo-sliyaniya-i-prisvaivaniya.md)
+* [Циклы while и for](basics/cikly-while-i-for.md)
