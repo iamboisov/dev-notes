@@ -19,3 +19,4 @@
 * [Конструкция "switch"](basics/konstrukciya-switch.md)
 * [Функции](basics/funkcii.md)
 * [Function expression](basics/function-expression.md)
+* [Стрелочные функции](basics/strelochnye-funkcii.md)
