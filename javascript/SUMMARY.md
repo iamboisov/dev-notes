@@ -20,3 +20,4 @@
 * [Функции](basics/funkcii.md)
 * [Function expression](basics/function-expression.md)
 * [Стрелочные функции](basics/strelochnye-funkcii.md)
+* [Тонкости и особенности](basics/tonkosti-i-osobennosti.md)
