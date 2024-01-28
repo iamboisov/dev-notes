@@ -18,3 +18,4 @@
 * [Циклы while и for](basics/cikly-while-i-for.md)
 * [Конструкция "switch"](basics/konstrukciya-switch.md)
 * [Функции](basics/funkcii.md)
+* [Function expression](basics/function-expression.md)
