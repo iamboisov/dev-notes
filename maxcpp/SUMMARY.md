@@ -1,9 +1,9 @@
 # Table of contents
 
-## Добро пожаловать! <a href="#welcome" id="welcome"></a>
+## Welcome
 
-* [MaxCPP](README.md)
+* [Page 2](README.md)
 
-## Basics
+## basics
 
 * [Page 1](basics/page-1.md)
