@@ -1,5 +1,5 @@
 # Table of contents
 
-## Group 1
+## Добро пожаловать! <a href="#welcome" id="welcome"></a>
 
-* [Page 1](README.md)
+* [MaxCPP](README.md)
