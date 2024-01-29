@@ -21,3 +21,7 @@
 * [Function expression](basics/function-expression.md)
 * [Стрелочные функции](basics/strelochnye-funkcii.md)
 * [Тонкости и особенности](basics/tonkosti-i-osobennosti.md)
+
+## Объекты <a href="#objects" id="objects"></a>
+
+* [Объекты](objects/obekty.md)
