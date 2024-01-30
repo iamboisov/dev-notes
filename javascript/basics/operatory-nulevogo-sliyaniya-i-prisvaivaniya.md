@@ -33,7 +33,7 @@ console.log(result)
 let a = "Результат";
 let b = null;
 
-result = (a !== null && b !== undefined) ? a : b;
+result = (a !== null && a !== undefined) ? a : b;
 console.log(result) // Результат
 ```
 
