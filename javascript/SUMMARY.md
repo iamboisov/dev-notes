@@ -25,3 +25,4 @@
 ## Объекты <a href="#objects" id="objects"></a>
 
 * [Объекты](objects/obekty.md)
+* [Копирование объектов](objects/kopirovanie-obektov.md)
