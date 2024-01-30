@@ -51,7 +51,6 @@ let user = {
 let user = {
     name: "Вася",
     age: 30,
-    // Объявляем метод сокращенным способом
     sayHi() {
         console.log("Привет,", this.name); // Привет, Вася
     }
@@ -68,7 +67,6 @@ let user = {
 let user = {
   name: "Вася",
   age: 30,
-  // Объявляем метод сокращенным способом
   sayHi() {
       console.log("Привет,", user.name);
   }
@@ -87,7 +85,6 @@ admin.sayHi() // Cannot read properties of null
 let user = {
   name: "Вася",
   age: 30,
-  // Объявляем метод сокращенным способом
   sayHi() {
       console.log("Привет,", this.name);
   }
