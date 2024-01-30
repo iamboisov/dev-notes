@@ -114,7 +114,7 @@ while (a) {
 
 // Преобразуем в цикл for
 let a = true;
-for (; a == true;) { // Объявление переменной можно вывести за условие, поставив точку запятую
+for (; a == true;) { // Объявление переменной можно вывести за условие, поставив точку с запятой
     console.log(a)
 } // Цикл с for уже сложнее читать
 </code></pre>
@@ -219,15 +219,13 @@ labelName: for (...) {
 outer: for (let i = 0; i < 3; i++) {
 
   for (let j = 0; j < 3; j++) {
-
     let input = prompt(`Значение на координатах (${i},${j})`, '');
-
     // если пустая строка или Отмена, то выйти из обоих циклов
     if (!input) break outer; // (*)
-
     // сделать что-нибудь со значениями...
-  }
-}
+  };
+  
+};
 
 console.log("Готово!")
 ```
@@ -243,15 +241,15 @@ for (let i = 0; i < 3; i++) { ... }
 
 ```javascript
 outer: for (let i = 0; i < 3; i++) {
+
     for (let j = 0; j < 3; j++) {
-      
       if (j == 1) continue outer; // (*)
       console.log(i, j)
-      
-    }
-  }
+    };
+    
+  };
   
-  console.log('Готово!');
+console.log('Готово!');
 ```
 
 {% hint style="danger" %}
