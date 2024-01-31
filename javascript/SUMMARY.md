@@ -27,3 +27,4 @@
 * [Объекты](objects/obekty.md)
 * [Копирование объектов](objects/kopirovanie-obektov.md)
 * [Методы объекта "this"](objects/metody-obekta-this.md)
+* [Конструктор, оператор "new"](objects/konstruktor-operator-new.md)
