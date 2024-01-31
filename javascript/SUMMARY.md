@@ -28,3 +28,4 @@
 * [Копирование объектов](objects/kopirovanie-obektov.md)
 * [Методы объекта "this"](objects/metody-obekta-this.md)
 * [Конструктор, оператор "new"](objects/konstruktor-operator-new.md)
+* [Опциональная цепочка](objects/opcionalnaya-cepochka.md)
