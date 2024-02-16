@@ -35,5 +35,6 @@
 ## Типы данных <a href="#data-types" id="data-types"></a>
 
 * [Методы примитивов](data-types/metody-primitivov.md)
-* [Числа](data-types/chisla.md)
+* [Числа](data-types/page.md)
 * [Строки](data-types/stroki.md)
+* [Массивы](data-types/massivy.md)
