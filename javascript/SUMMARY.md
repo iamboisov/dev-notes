@@ -31,3 +31,8 @@
 * [Опциональная цепочка](objects/opcionalnaya-cepochka.md)
 * [Символы](objects/simvoly.md)
 * [Преобразование объектов](objects/preobrazovanie-obektov.md)
+
+## Типы данных <a href="#data-types" id="data-types"></a>
+
+* [Методы примитивов](data-types/metody-primitivov.md)
+* [Page](data-types/page.md)
