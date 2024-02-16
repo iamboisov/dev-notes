@@ -30,3 +30,4 @@
 * [Конструктор, оператор "new"](objects/konstruktor-operator-new.md)
 * [Опциональная цепочка](objects/opcionalnaya-cepochka.md)
 * [Символы](objects/simvoly.md)
+* [Преобразование объектов](objects/preobrazovanie-obektov.md)
