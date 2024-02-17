@@ -38,3 +38,4 @@
 * [Числа](data-types/page.md)
 * [Строки](data-types/stroki.md)
 * [Массивы](data-types/massivy.md)
+* [Методы массивов](data-types/metody-massivov.md)
