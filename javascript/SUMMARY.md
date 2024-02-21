@@ -40,3 +40,4 @@
 * [Массивы](data-types/massivy.md)
 * [Методы массивов](data-types/metody-massivov.md)
 * [Map и Set](data-types/map-i-set.md)
+* [WeakMap и WeakSet](data-types/weakmap-i-weakset.md)
