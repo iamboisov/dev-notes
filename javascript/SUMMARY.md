@@ -42,3 +42,4 @@
 * [Map и Set](data-types/map-i-set.md)
 * [WeakMap и WeakSet](data-types/weakmap-i-weakset.md)
 * [Object.keys, values, entries](data-types/object.keys-values-entries.md)
+* [Деструктурирующее присваивание](data-types/destrukturiruyushee-prisvaivanie.md)
