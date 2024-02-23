@@ -45,3 +45,7 @@
 * [Деструктурирующее присваивание](data-types/destrukturiruyushee-prisvaivanie.md)
 * [Дата и время](data-types/data-i-vremya.md)
 * [Формат JSON, метод toJSON](data-types/format-json-metod-tojson.md)
+
+## Продвинутая работа с функциями <a href="#advanced-functions" id="advanced-functions"></a>
+
+* [Рекурсия и стек](advanced-functions/rekursiya-i-stek.md)
