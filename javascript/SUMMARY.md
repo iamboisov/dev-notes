@@ -44,3 +44,4 @@
 * [Object.keys, values, entries](data-types/object.keys-values-entries.md)
 * [Деструктурирующее присваивание](data-types/destrukturiruyushee-prisvaivanie.md)
 * [Дата и время](data-types/data-i-vremya.md)
+* [Формат JSON, метод toJSON](data-types/format-json-metod-tojson.md)
