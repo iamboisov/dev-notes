@@ -49,3 +49,4 @@
 ## Продвинутая работа с функциями <a href="#advanced-functions" id="advanced-functions"></a>
 
 * [Рекурсия и стек](advanced-functions/rekursiya-i-stek.md)
+* [Остаточные параметры и оператор расширения](advanced-functions/ostatochnye-parametry-i-operator-rasshireniya.md)
