@@ -118,3 +118,85 @@ console.log(LexicalEnvironment.EnvironmentRecord.variable)
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
+Пример:
+
+У нас есть функция, которая выводит на экран переменную
+
+```javascript
+function say(variable) {
+  console.log(variable)
+}
+
+say("Hello") // Hello
+```
+
+Исходя из пояснения про внутреннее и внешнее лексическое окружение, предоставляю код того, как это примерно работает под капотом (я не заглядывал в спецификацию, но написал код для понимания, что происходит при выполнении функции):
+
+```javascript
+let LexicalEnvironment = {
+
+  EnvironmentRecord: {
+    say: function(variable) {
+    
+      let functionLexicalEnvironment = {
+        EnvironmentRecord: {
+          name: variable
+        }
+      }
+      
+      console.log(functionLexicalEnvironment.EnvironmentRecord.name)
+    },
+    variable: "Hello"
+  },
+
+  ExternalLinks: null
+};
+```
+
+Теперь давайте разбираться что здесь происходит:
+
+```javascript
+// Создается лексическое окружение (объект)
+let LexicalEnvironment = {
+
+// Одно из свойств нужно для хранения переменных и параметров вызова
+  EnvironmentRecord: {
+    say: function(variable) {
+    
+    // Лексическое окружение для функции
+      let functionLexicalEnvironment = {
+      
+      // Для хранения переменных и параметров вызова
+        EnvironmentRecord: {
+          name: variable
+        },
+      
+      // Для ссылок на внешнее окружение  
+        ExternalLinks: null
+      }
+
+      console.log(functionLexicalEnvironment.EnvironmentRecord.name)
+    },
+    variable: "Hello"
+  },
+
+// Другое свойство нужно для доступа ко внешнему коду
+  ExternalLinks: null
+};
+```
+
+По сути эти два вызова функции одно и то же:
+
+```javascript
+say("Hello") // Hello
+LexicalEnvironment.EnvironmentRecord.say("Hello"); // Hello
+```
+
+В процессе вызова у нас есть два лексических окружения:
+
+**Внутреннее (для вызываемой функции):**
+
+В нем находится переменная name, аргумент функции. Мы вызываем `say("Hello")`, так что значение переменной name равно `"Hello"`
+
+Внешнее (глобальное лексическое окружение)
+
