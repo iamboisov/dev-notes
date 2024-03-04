@@ -51,3 +51,4 @@
 * [Рекурсия и стек](advanced-functions/rekursiya-i-stek.md)
 * [Остаточные параметры и оператор расширения](advanced-functions/ostatochnye-parametry-i-operator-rasshireniya.md)
 * [Область видимости и замыкание](advanced-functions/oblast-vidimosti-i-zamykanie.md)
+* [Устаревшее слово var](advanced-functions/ustarevshee-slovo-var.md)
