@@ -55,3 +55,4 @@
 * [Глобальный объект](advanced-functions/globalnyi-obekt.md)
 * [Объект функции, NFE](advanced-functions/obekt-funkcii-nfe.md)
 * [Синтаксис new Function](advanced-functions/sintaksis-new-function.md)
+* [Планирование: setTimeout и setInterval](advanced-functions/planirovanie-settimeout-i-setinterval.md)
