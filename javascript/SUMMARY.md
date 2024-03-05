@@ -54,3 +54,4 @@
 * [Устаревшее слово var](advanced-functions/ustarevshee-slovo-var.md)
 * [Глобальный объект](advanced-functions/globalnyi-obekt.md)
 * [Объект функции, NFE](advanced-functions/obekt-funkcii-nfe.md)
+* [Синтаксис new Function](advanced-functions/sintaksis-new-function.md)
