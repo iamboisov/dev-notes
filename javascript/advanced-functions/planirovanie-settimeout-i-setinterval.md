@@ -119,3 +119,41 @@ setTimeout(() => { clearInterval(timerId); console.log('stop'); }, 5000);
 ```
 {% endcode %}
 
+## Вложенный  setTimeout
+
+Есть два способа запускать что-то регулярно:
+
+Один из них `setInterval`. Другим является вложенный `setTimeout`. Например:
+
+```javascript
+/** вместо:
+let timerId = setInterval(() => alert('tick'), 2000);
+*/
+
+let timerId = setTimeout(function tick() {
+  alert('tick');
+  timerId = setTimeout(tick, 2000); // (*)
+}, 2000);
+```
+
+Метод `setTimeout` выше планирует следующий вызов прямо после окончания текущего `(*)`.
+
+Вложенный `setTimeout` – более гибкий метод, чем `setInterval`. С его помощью последующий вызов может быть задан по-разному в зависимости от результатов предыдущего.
+
+```javascript
+let i = 3;
+setTimeout(function run() {
+  console.log(i);
+  setTimeout(run, i*100); // Выполняется каждые i*100 секунд
+}, 3000);
+```
+
+## setTimeout  с нулевой задержкой
+
+Так вызов функции будет запланирован сразу после выполнения текущего кода.
+
+```javascript
+setTimeout(() => console.log("Мир"));
+
+console.log("Привет");
+```
