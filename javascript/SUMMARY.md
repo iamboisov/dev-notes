@@ -56,3 +56,4 @@
 * [Объект функции, NFE](advanced-functions/obekt-funkcii-nfe.md)
 * [Синтаксис new Function](advanced-functions/sintaksis-new-function.md)
 * [Планирование: setTimeout и setInterval](advanced-functions/planirovanie-settimeout-i-setinterval.md)
+* [Декораторы и переадресация вызова](advanced-functions/dekoratory-i-pereadresaciya-vyzova.md)
